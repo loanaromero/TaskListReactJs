@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--body_color);
+}
+
+.message {
+  text-align: center;
+  font-size: calc(20px + (50 - 20) * ((100vw - 310px) / (1560 - 310)));
+}

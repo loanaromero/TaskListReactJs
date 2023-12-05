@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: var(--body_background-color); /* Establece el color de fondo del cuerpo utilizando la variable definida anteriormente */
+  color: var(--body_color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.app-input {
+  width: 60%;
+  max-width: 30rem;
+  background-color: rgb(211, 208, 208);
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: 700;
+  padding: .5rem;
+  font-size: .9rem;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.title-container {
+  text-align: center; 
+  margin-top: 30px; 
+  margin-bottom: 50px;
+}

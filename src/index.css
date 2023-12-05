@@ -1,0 +1,29 @@
+/* Definición de variables de estilo en la pseudo-clase :root */
+:root {
+  --body_background-color: white; /* Fondo del cuerpo (body) en el modo claro */
+  --body_color: black; /* Color del texto en el modo claro */
+}
+
+/* Cambia las variables de estilo cuando el atributo data-theme es "dark" */
+[data-theme="dark"] {
+  --body_background-color: #010118ee; /* Fondo del cuerpo en el modo oscuro con un valor de opacidad */
+  --body_color: rgb(255, 255, 255); /* Color del texto en el modo oscuro */
+}
+
+/* Aplica una transición suave a todos los elementos */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;  
+}
